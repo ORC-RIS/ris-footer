@@ -1,0 +1,56 @@
+/***** General Styles *****/
+#ris_footer{
+	background-color: #333;
+	color: #b3b3b3;
+	padding: 10px;
+    font-family: "Century Gothic", CenturyGothic, Helvetica, sans-serif;
+}
+/** Copyright information **/
+.footerCopy {
+	padding: 10px;
+}
+.footerCopy a, .copy_comp{
+	color: #ffcc00;
+	font-size: 0.9em;
+}
+.footerCopy{
+	text-align: center;
+}
+.copy_email a{
+	text-decoration: none;
+	font-size: 0.875em;
+}
+
+/** Buttons/Links **/
+.footer_buttons{
+	font-style: strong;
+}
+.leftBtns {
+	text-align: left;
+	float: left;
+	width: 60%;
+}
+.rightBtns {
+	text-align: right;
+	float: right;
+	width: 40%;
+}
+
+.leftBtns a, .rightBtns a {
+	display: inline-block;
+	background-color: #ffc904;
+	padding: 4px 5px 4px;
+	color: #fefefe;
+	text-decoration: none;
+}
+
+/** Login/User Information **/
+.loginInfo {
+	margin: 5px 1% 4px;
+	background-color: #555;
+	padding: 0.25%;
+	color: #fff;
+	font-size: 0.785em;
+	font-family: "Calibri", Helvetica, sans-serif;
+}
+
