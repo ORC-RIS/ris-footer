@@ -1,30 +1,33 @@
 <html>
 	<head>
-	
-	<!-- <link rel="stylesheet" href="styles.css" /> -->
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+		
+
+		<title>RIS Footer Demo</title>
 
 	</head>
 
-	<body>
+	<body style="margin:0;">
 		<script src="js/ris_footer.js"></script>
 		<div id="ris_footer">
+
+
 		<script id="footer_info">
 		
 			var customInfo = ({ 
 				"leftBtns" : [
 					{ "text":"Home", "url":"#"},
-					{ "text":"Contact Us", "url":"URL HERE"},
-					{ "text":"Credits", "url":"URL HERE"},
+					{ "text":"Contact Us", "url":"#"},
+					{ "text":"Credits", "url":"#"},
 				],
 				"rightBtns" : [
-					{ "text":"Login History", "url":"URL HERE"},
-					{ "text":"Logout", "url":"URL HERE"}
+					{ "text":"Login History", "url":"#"},
+					{ "text":"Logout", "url":"#"}
 				],
 				"loginInfo" : { 
 					"fName": "John",
 					"lName": "Lynch",
-					"role" : "Developer"
+					"role" : "Developer",
+					"IPaddress" : "11.222.333.444"
 				},
 				"copyright" : {
 					"name":"UCF Office of Research & Commercialization",
@@ -35,11 +38,22 @@
 		</script>
 
 		</div>
-
+		
+		<!-- Custom styles for the RIS-Footer here -->
+		<style>
+			#ris_footer{}
+			/** Copyright Info **/
+			.footerCopy {}
+			.footerCopy a, .copy_comp{}
+			.copy_email a{}
+			/** Buttons/Links **/
+			.footer_buttons {}
+			.leftBtns {}
+			.rightBtns {}
+			.leftBtns a, .rightBtns a {}
+			.leftBtns a:hover , .rightBtns a:hover {}
+			/** Login/User Information **/
+			.loginInfo {}
+		</style>
 	</body>
-
-
-
 </html>
-
-
