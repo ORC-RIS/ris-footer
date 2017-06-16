@@ -8,13 +8,11 @@
 /** Copyright information **/
 .footerCopy {
 	padding: 10px;
+	text-align: center;
 }
 .footerCopy a, .copy_comp{
 	color: #ffcc00;
 	font-size: 0.9em;
-}
-.footerCopy{
-	text-align: center;
 }
 .copy_email a{
 	text-decoration: none;
@@ -22,8 +20,9 @@
 }
 
 /** Buttons/Links **/
-.footer_buttons{
-	font-style: strong;
+.footer_buttons {
+	display: inline-block;
+	width: 100%;
 }
 .leftBtns {
 	text-align: left;
@@ -42,11 +41,17 @@
 	padding: 4px 5px 4px;
 	color: #fefefe;
 	text-decoration: none;
+	font-size: 0.8em;
 }
 
+.leftBtns a:hover , .rightBtns a:hover {
+	transition: all .2s;
+	color: #9D9162;
+	background-color: #FFEBA3;
+}
 /** Login/User Information **/
 .loginInfo {
-	margin: 5px 1% 4px;
+	margin: 10px 1% 4px;
 	background-color: #555;
 	padding: 0.25%;
 	color: #fff;
