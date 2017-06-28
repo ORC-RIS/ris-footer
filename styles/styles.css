@@ -1,17 +1,19 @@
 /***** General Styles *****/
 #ris_footer{
-	background-color: #333;
-	color: #b3b3b3;
+	background-color: #000000;
+	color: #FFFFFF;
 	padding: 10px;
-    font-family: "Century Gothic", CenturyGothic, Helvetica, sans-serif;
+    font-family: "Arial", Helvetica, sans-serif;
+    margin: 5px;
 }
 /** Copyright information **/
-.footerCopy {
-	padding: 10px;
+.footerCopy {	
+	margin: auto;	
 	text-align: center;
+	
 }
 .footerCopy a, .copy_comp{
-	color: #ffcc00;
+	color: 	#f2c413;
 	font-size: 0.9em;
 }
 .copy_email a{
@@ -19,43 +21,53 @@
 	font-size: 0.875em;
 }
 
+.border {
+	border-color: #1a1a00;
+	background: #000000;
+}
+
+.logo {	
+	position: relative;			
+}
+
+.text {	
+	position: relative;
+	margin-top: 12px;
+}
+
 /** Buttons/Links **/
 .footer_buttons {
 	display: inline-block;
 	width: 100%;
 }
-.leftBtns {
-	text-align: left;
-	float: left;
-	width: 60%;
-}
+
 .rightBtns {
 	text-align: right;
-	float: right;
-	width: 40%;
+	padding: 0.50%;
+
 }
 
-.leftBtns a, .rightBtns a {
+.rightBtns a {
 	display: inline-block;
-	background-color: #ffc904;
+	background-color: #f2c413;
 	padding: 4px 5px 4px;
-	color: #fefefe;
+	color: #000000;
 	text-decoration: none;
 	font-size: 0.8em;
+
 }
 
-.leftBtns a:hover , .rightBtns a:hover {
+.rightBtns a:hover {
 	transition: all .2s;
 	color: #9D9162;
 	background-color: #FFEBA3;
 }
 /** Login/User Information **/
 .loginInfo {
-	margin: 10px 1% 4px;
-	background-color: #555;
-	padding: 0.25%;
+	width: 100%;
+	display: inline-block;
 	color: #fff;
 	font-size: 0.785em;
 	font-family: "Calibri", Helvetica, sans-serif;
+	padding: 0.50%;
 }
-
