@@ -82,7 +82,7 @@ function initialize_ris_footer(){
 			'<div class="footer_buttons">'+buttons+userInfo+'</div>' +
 			'<div style="clear:both;"></div> ' + addBorder() + //Calls function to add border if buttons or login info available.
 			'<div class="footerCopy">' +
-				'<div class="logo">' +
+				'<div>' +
 					'<img src="//header.dev.research.ucf.edu/ris-footer/TheTab_KGrgb_72ppi.png" style="margin-bottom: 5px;"/>' +
 				'</div>' +	
 				'<div class="text">' +
