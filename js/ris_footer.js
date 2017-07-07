@@ -54,7 +54,7 @@ function initialize_ris_footer(){
 		
 		function addButtons(buttons){
 			var list = "";
-			for (b = 0; b < buttons.length; b++){
+			for (b = 0; b < buttons.length; b++){git sd
 				list += '<a href="'+buttons[b].url+'"><strong>'+ buttons[b].text + '</strong></a>\n';
 			}
 			return list;
@@ -78,18 +78,18 @@ function initialize_ris_footer(){
 		}
 
 
-		var a = document.createElement('link');	
-		a.setAttribute("href", "ris-footer/styles/styles.css");		// Creates link to CSS file, href attribute
-		a.setAttribute("rel", "stylesheet");				// may need to be changed accordingly!
-		a.setAttribute("type", "text/css");
-		document.querySelector('head').appendChild(a);
+		// var a = document.createElement('link');	
+		// a.setAttribute("href", "ris-footer/styles/styles.css");		// Creates link to CSS file, href attribute
+		// a.setAttribute("rel", "stylesheet");				// may need to be changed accordingly!
+		// a.setAttribute("type", "text/css");
+		// document.querySelector('head').appendChild(a);
 
 		ris_footer_jQuery("#ris_footer").html(' <div class="footer_wrapper"> ' +//Adds footer contents to page.
 			'<div class="footer_buttons">'+buttons+userInfo+'</div>' +
 			'<div style="clear:both;"></div> ' + addBorder() + //Calls function to add border if buttons or login info available.
 			'<div class="footerCopy">' +
 				'<div class="logo">' +
-					'<img src="TheTab_KGrgb_72ppi.png" style="margin-bottom: 5px;"/>' +
+					'<img src="http://header.dev.research.ucf.edu/ris-footer/TheTab_KGrgb_72ppi.png" style="margin-bottom: 5px;"/>' +
 				'</div>' +	
 				'<div class="text">' +
 					'<div class="copy_comp">&copy; '+d.getFullYear()+' '+footerInfo.copyright.name+'</div>' +
