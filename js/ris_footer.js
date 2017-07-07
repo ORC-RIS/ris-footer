@@ -89,7 +89,7 @@ function initialize_ris_footer(){
 			'<div style="clear:both;"></div> ' + addBorder() + //Calls function to add border if buttons or login info available.
 			'<div class="footerCopy">' +
 				'<div class="logo">' +
-					'<img src="http://header.dev.research.ucf.edu/ris-footer/TheTab_KGrgb_72ppi.png" style="margin-bottom: 5px;"/>' +
+					'<img src="//header.dev.research.ucf.edu/ris-footer/TheTab_KGrgb_72ppi.png" style="margin-bottom: 5px;"/>' +
 				'</div>' +	
 				'<div class="text">' +
 					'<div class="copy_comp">&copy; '+d.getFullYear()+' '+footerInfo.copyright.name+'</div>' +
