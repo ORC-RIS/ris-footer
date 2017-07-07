@@ -48,7 +48,7 @@ function initialize_ris_footer(){
 		
 		function addButtons(buttons){
 			var list = "";
-			for (b = 0; b < buttons.length; b++){git sd
+			for (b = 0; b < buttons.length; b++){
 				list += '<a href="'+buttons[b].url+'"><strong>'+ buttons[b].text + '</strong></a>\n';
 			}
 			return list;
