@@ -79,7 +79,7 @@ function initialize_ris_footer(){
 
 
 		var a = document.createElement('link');	
-		a.setAttribute("href", "styles/styles.css");		// Creates link to CSS file, href attribute
+		a.setAttribute("href", "ris-footer/styles/styles.css");		// Creates link to CSS file, href attribute
 		a.setAttribute("rel", "stylesheet");				// may need to be changed accordingly!
 		a.setAttribute("type", "text/css");
 		document.querySelector('head').appendChild(a);
