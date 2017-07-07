@@ -12,20 +12,14 @@ function initialize_ris_footer(){
 	ris_footer_jQuery = jQuery.noConflict(true);
 	var d = new Date();
 	var defaultInfo = { 
-		/*"leftBtns" : [
-		{ "text":"link1", "url":"#"},
-		{ "text":"link2", "url":"#"},
-		{ "text":"link3", "url":"#"},
-		],*/
+		"leftBtns" : [
+		],
 		"rightBtns" : [
-		{ "text":"link4", "url":"#"},
-		{ "text":"link5", "url":"#"},
-		{ "text":"Logout", "url":"#"}
 		],
 		"copyright" : {
-			"name":"UCF ORC",
-			"dev":"RIS",
-			"email":"risservicedesk&#64;ucf.edu"
+				"name":"UCF Office of Research & Commercialization",
+                "dev":"Research Information Systems",
+                "email":"risservicedesk@ucf.edu"
 		}
 	};
 
@@ -64,7 +58,7 @@ function initialize_ris_footer(){
 		if (typeof customInfo !== 'undefined'){
 			mergeInformation();	
 		}
-		var buttons = //'<div class="leftBtns">\n'+addButtons(footerInfo.leftBtns)+"</div>" + 
+		var buttons = '<div class="leftBtns">\n'+addButtons(footerInfo.leftBtns)+"</div>" + 
 					  '<div class="rightBtns">\n'+addButtons(footerInfo.rightBtns)+"</div>";
 		var userInfo;
 		if (footerInfo.loginInfo != null){

@@ -41,13 +41,19 @@
 	width: 100%;
 }
 
+.leftBtns {
+	text-align: left;
+	float: left;
+	width: 60%;
+}
+
 .rightBtns {
 	text-align: right;
 	padding: 0.50%;
 
 }
 
-.rightBtns a {
+.leftBtns a, .rightBtns a {
 	display: inline-block;
 	background-color: #f2c413;
 	padding: 4px 5px 4px;
@@ -57,7 +63,7 @@
 
 }
 
-.rightBtns a:hover {
+.leftbtns a:hover , .rightBtns a:hover {
 	transition: all .2s;
 	color: #9D9162;
 	background-color: #FFEBA3;
